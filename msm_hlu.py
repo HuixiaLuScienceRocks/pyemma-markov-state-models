@@ -7,7 +7,7 @@ import pyemma
 from pyemma.util.contexts import settings
 
 #Loading data
-pdb = 'kras.pdb'
+pdb = 'chainP.pdb'
 files = 'kras.dcd'
 #files = []
 
