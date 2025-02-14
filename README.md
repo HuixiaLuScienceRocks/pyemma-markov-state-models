@@ -1,12 +1,15 @@
 # pyemma-markov-state-models
 ##how to install pyemma2.5.7 in Ubuntu18.04
+
 ##attention: Pyemma2.5.7 doesn't exit in conda-forge channel!!!!!!
+
 ##Do not install pyemma through commands: 1. conda install --channel "conda-forge" pyemma,
 ###and then 2. conda install notebook, cause numpy version installed will be the rabbit hole you DONOT want to explore! It is a waste of time!!!
-After creating the env environment with the installation of python3.7.12
+
+#After creating the env environment with the installation of python3.7.12
 python3 -m pip install pyemma==2.5.7
 
-Use Python 3.7.12 and install pyemma2.5.7, after succesffuly installation, the following packages were also installed:
+#Use Python 3.7.12 and install pyemma2.5.7, after succesffuly installation, the following packages were also installed:
 astunparse-1.6.3 bhmm-0.6.3 cycler-0.11.0 decorator-5.1.1 dill-0.3.7 fonttools-4.38.0 h5py-3.8.0
 kiwisolver-1.4.5 matplotlib-3.5.3 mdtraj-1.9.9 msmtools-1.2.6 multiprocess-0.70.15 numpy-1.21.6
 packaging-24.0 pathos-0.3.1 pillow-9.5.0 pox-0.3.3 ppft-1.7.6.7 psutil-7.0.0 pyemma-2.5.7 pyparsing-3.1.4
