@@ -33,10 +33,17 @@ terminado-0.17.1 tinycss2-1.2.1 tornado-6.2 traitlets-5.9.0 wcwidth-0.2.13 weben
 websocket-client-1.6.1 zipp-3.15.0
 
 ##start your MSM analysis
-conda create -n aaa python=3.7.12
-conda activate aaa
+
+conda create -n pyemma-env python=3.7.12
+
+conda activate pyemma-env
+
 conda install pip
+
 python -m pip install pyemma==2.5.7
+
 python -m pip install pandas==0.25.3
+
 python -m pip install notebook
+
 python msm_hlu.py
