@@ -1,4 +1,25 @@
 # pyemma-markov-state-models
+##start your MSM analysis
+
+conda create -n pyemma-env python=3.7.12
+
+conda activate pyemma-env
+
+conda install pip
+
+python -m pip install pyemma==2.5.7
+
+python -m pip install pandas==0.25.3
+
+python -m pip install notebook
+
+python msm_hlu.py
+
+
+
+####################################################
+Readmore:
+#Make sure your conda environment is conssitent!!!!!
 ##how to install pyemma2.5.7 in Ubuntu18.04
 
 ##attention: Pyemma2.5.7 doesn't exit in conda-forge channel!!!!!!
@@ -31,19 +52,5 @@ pexpect-4.9.0 pickleshare-0.7.5 pkgutil-resolve-name-1.3.10 prometheus-client-0.
 ptyprocess-0.7.0 pycparser-2.21 pygments-2.17.2 pyrsistent-0.19.3 pyzmq-26.2.1 sniffio-1.3.1 soupsieve-2.4.
 terminado-0.17.1 tinycss2-1.2.1 tornado-6.2 traitlets-5.9.0 wcwidth-0.2.13 webencodings-0.5.1
 websocket-client-1.6.1 zipp-3.15.0
+###############################################################
 
-##start your MSM analysis
-
-conda create -n pyemma-env python=3.7.12
-
-conda activate pyemma-env
-
-conda install pip
-
-python -m pip install pyemma==2.5.7
-
-python -m pip install pandas==0.25.3
-
-python -m pip install notebook
-
-python msm_hlu.py
