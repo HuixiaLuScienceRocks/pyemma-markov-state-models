@@ -1,11 +1,17 @@
 # pyemma-markov-state-models
 ##start your MSM analysis
-
+```
 conda create -n pyemma-env python=3.7.12
+```
 
+```
 conda activate pyemma-env
+```
 
+```
 conda install pip
+```
+
 
 python -m pip install pyemma==2.5.7
 
