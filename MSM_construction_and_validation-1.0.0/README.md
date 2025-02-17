@@ -23,8 +23,9 @@ To utilize custom simulation topologies and trajectories, replace the existing f
 And you are ready to run
 
 ```
-python MSM_construction_and_validation.py    #!!!TypeError: Error: ./data/r5_toy.nc is not a valid NetCDF 3 file!!!
+python MSM_construction_and_validation.py 
 ```
+#!!!TypeError: Error: ./data/r5_toy.nc is not a valid NetCDF 3 file!!!
 
 The anticipated outputs are the following:
 
