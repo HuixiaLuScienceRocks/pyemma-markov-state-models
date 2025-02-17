@@ -12,15 +12,21 @@ conda activate pyemma-env
 conda install pip
 ```
 
-
+```
 python -m pip install pyemma==2.5.7
+```
 
+```
 python -m pip install pandas==0.25.3
+```
 
+```
 python -m pip install notebook
+```
 
+```
 python msm_hlu.py
-
+```
 
 
 ####################################################
